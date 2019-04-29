@@ -9,8 +9,6 @@ links:
 ### Me
 ### Links
 
-<ul>
-<li>
 <a href="{{ page.resume }}">
 Resume
 <i class="fas fa-file"></i>
@@ -22,5 +20,3 @@ Resume
 GitHub
 <i class="fab fa-github"></i>
 </a>
-</li>
-</ul>

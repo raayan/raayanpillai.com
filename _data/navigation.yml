@@ -1,6 +1,6 @@
 header:
   - titles:
-      en      : &EN       Archive
+      en      : &EN       Blog 
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
