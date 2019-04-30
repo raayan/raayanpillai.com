@@ -1,0 +1,15 @@
+---
+layout: article
+title: Reading List 
+key: page-about
+---
+
+<ul>
+  {% for book in site.data.books %}
+  <li>
+    <a href="{{ book.link }}">{{ book.title }} - {{ book.author }}</a>
+    --
+    {{ book.content }}
+  </li>
+  {% endfor %}
+</ul>

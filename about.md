@@ -4,19 +4,10 @@ title: About
 key: page-about
 links:
  resume: "/assets/resume/resume.pdf"
+ reading: "reading.html"
 ---
 
-### Me
-### Links
-
-<a href="{{ page.resume }}">
-Resume
-<i class="fas fa-file"></i>
-</a>
-</li>
-
-<li>
-<a href="{{ site.author.linkedin }}">
-GitHub
-<i class="fab fa-github"></i>
-</a>
+I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, automation and how those topics intersect with computer science.
+I enjoy weightlifting, [reading]({{ page.links.reading }}), and music in my free time.
+Some of the random things I build are on my [GitHub]({{ site.author.linkedin }}).
+Here's my [resume]({{ page.links.resume }}).
