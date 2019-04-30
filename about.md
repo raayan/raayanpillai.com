@@ -9,5 +9,6 @@ links:
 
 I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, automation and how those topics intersect with computer science.
 I enjoy weightlifting, [reading]({{ page.links.reading }}), and music in my free time.
-Some of the random things I build are on my [GitHub]({{ site.author.linkedin }}).
+Some of the random things I build are on my [GitHub](https://github.com/{{ site.author.github }}).
 Here's my [resume]({{ page.links.resume }}).
+
