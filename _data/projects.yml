@@ -16,4 +16,10 @@
   content: A poll built in angular2, say you're livestreaming or something that needs live-updating results, you could use this.
   svg: true 
   image: droppoll-logo.svg
+- title: Gamma Pi Net
+  subtitle: Management Site for Greek Life Organization
+  link: "https://github.com/SigmaChiGammaPi/sigmachigammapi.github.io"
+  content: An angularjs web-platform intended to be an all-in-one administration platform. Simple mongoDB interaction for managing users' attendance, comments, rank and information. Integration with Twilio SMS-api to send text alerts to users based on various triggers.
+  svg: false 
+  image: scgp-logo.jpg
 
