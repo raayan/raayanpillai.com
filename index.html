@@ -1,13 +1,50 @@
 ---
 layout: article
-title: Home 
 key: page-about
 ---
+<style>
+.not-done {
+  color: #fc4d50
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+.grid-image {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
+</style>
 
-<h5>This is not done yet, check out the other pages.</h5>
+
+<h2 class="not-done">This is not done yet, check out the other pages.</h2>
 <h2>Projects</h2>
+<div class="grid-container">
 {% for project in site.data.projects %}
-  <a href="{{ project.link }}">{{ project.title }}</a>
-  <br>
-  <b>{{ project.subtitle }}</b> -- {{ project.content }}
+  <div class="grid-item">
+    <a href="{{ project.link }}">
+      {% if project.svg %}
+      <object type="image/svg+xml" data="/projects/{{ project.image }}" class="logo">
+        {{ project.image }}
+      </object>
+      {% else %}
+      <img src="/projects/{{ project.image }}" alt="/projects/{{ project.image }}"> 
+      {% endif %}
+    </a>
+  </div>
+  <div class="grid-item">
+      <a href="{{ project.link }}">{{ project.title }}</a>
+      <br>
+      <b>{{ project.subtitle }}</b> -- {{ project.content }}
+  </div>
 {% endfor %}
+</div> 
+
