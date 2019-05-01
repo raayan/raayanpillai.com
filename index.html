@@ -1,7 +1,13 @@
 ---
-layout: articles
-articles:
-  data_source: site.posts
-  show_excerpt: true
-  show_info: true
+layout: article
+title: Home 
+key: page-about
 ---
+
+<h5>This is not done yet, check out the other pages.</h5>
+<h2>Projects</h2>
+{% for project in site.data.projects %}
+  <a href="{{ project.link }}">{{ project.title }}</a>
+  <br>
+  <b>{{ project.subtitle }}</b> -- {{ project.content }}
+{% endfor %}
