@@ -1,11 +1,11 @@
 <!DOCTYPE html><html lang="en">
   <head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Home - Raayan Pillai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Raayan Pillai</title>
 
 <meta name="description" content="Some stuff I wanted to share
 ">
-<link rel="canonical" href="http://0.0.0.0:4000/"><link rel="alternate" type="application/rss+xml" title="Raayan Pillai" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ -->
+<link rel="canonical" href="http://localhost:4000/"><link rel="alternate" type="application/rss+xml" title="Raayan Pillai" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -375,14 +375,79 @@
 
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
-<!-- end custom main top snippet --><article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Home</h1></header></div><meta itemprop="headline" content="Home"><meta itemprop="author" content="Raayan Pillai"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<!-- end custom main top snippet --><article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1></h1></header></div><meta itemprop="headline" content=""><meta itemprop="author" content="Raayan Pillai"/><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
-<!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><h5>This is not done yet, check out the other pages.</h5>
+<!-- end custom article top snippet --><div class="article__content" itemprop="articleBody"><style>
+.not-done {
+  color: #fc4d50
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 20px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+}
+.grid-image {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px;
+  max-width: 200px;
+  max-height: 200px;
+}
+</style>
+
+
+<h2 class="not-done">This is not done yet, check out the other pages.</h2>
 <h2>Projects</h2>
+<div class="grid-container">
 
-  <a href="https://github.com/raayanpillai/redcloudpp">redcloud</a>
-  <br>
-  <b>A Cryptocurrency Market-Making Engine</b> -- Leveraged the APIs of various cryptocurrency exchanges to build a framework to execute market-making and arbitrage strategies.
+  <div class="grid-item">
+    <a href="https://github.com/raayanpillai/redcloudpp">
+      
+      <img src="/projects/redcloud-logo.png" alt="/projects/redcloud-logo.png"> 
+      
+    </a>
+  </div>
+  <div class="grid-item">
+      <a href="https://github.com/raayanpillai/redcloudpp">redcloud</a>
+      <br>
+      <b>Cryptocurrency Market-Making Engine</b> -- Leveraged the APIs of various cryptocurrency exchanges to build a framework to execute market-making and arbitrage strategies.
+  </div>
+
+  <div class="grid-item">
+    <a href="https://github.com/raayanpillai/CourseSniper">
+      
+      <img src="/projects/urcs-logo.png" alt="/projects/urcs-logo.png"> 
+      
+    </a>
+  </div>
+  <div class="grid-item">
+      <a href="https://github.com/raayanpillai/CourseSniper">CourseSniper</a>
+      <br>
+      <b>Course Registration Tool for the University of Rochester</b> -- Signing up for classes at the University of Rochester was tedious. Professors would give out class codes arbitrarily and the wait-list functionality our school implemented was completely non-functional. This was a simple fix, a webserver that would respectfully scrape and alert students when classes they cared about had opennings.
+  </div>
+
+  <div class="grid-item">
+    <a href="https://github.com/raayanpillai/CourseSniper">
+      
+      <div style="color:purple; fill:purple">
+        <object type="image/svg+xml" data="/projects/droppoll-logo.svg" class="logo">
+          droppoll-logo.svg
+        </object>
+      </div>
+      
+    </a>
+  </div>
+  <div class="grid-item">
+      <a href="https://github.com/raayanpillai/CourseSniper">droppoll</a>
+      <br>
+      <b>Stylable Realtime Poll</b> -- A poll built in angular2, say you're livestreaming or something that needs live-updating results, you could use this.
+  </div>
+
+</div> 
 
 </div><div class="d-print-none"><footer class="article__footer"><!-- start custom article footer snippet -->
 
