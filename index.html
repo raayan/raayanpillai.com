@@ -25,19 +25,13 @@ key: page-about
 </style>
 
 
-<h2 class="not-done">This is not done yet, check out the other pages.</h2>
+<b class="not-done">Work In Progress.</b>
 <h2>Projects</h2>
 <div class="grid-container">
 {% for project in site.data.projects %}
   <div class="grid-item">
     <a href="{{ project.link }}">
-      {% if project.svg %}
-      <object type="image/svg+xml" data="/projects/{{ project.image }}" class="logo">
-        {{ project.image }}
-      </object>
-      {% else %}
       <img src="/projects/{{ project.image }}" alt="/projects/{{ project.image }}"> 
-      {% endif %}
     </a>
   </div>
   <div class="grid-item">
