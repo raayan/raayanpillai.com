@@ -11,7 +11,7 @@
   svg: false
   image: urcs-logo.png
 - title: droppoll 
-  subtitle: Stylable Realtime Poll
+  subtitle: Styleable Realtime Poll
   link: "https://github.com/raayanpillai/droppoll-beta"
   content: A poll built in angular2, say you're livestreaming or something that needs live-updating results, you could use this.
   svg: true 
