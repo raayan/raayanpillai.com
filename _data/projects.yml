@@ -1,5 +1,5 @@
 - title: redcloud
-  subtitle: Cryptocurrency Market-Making Engine
+  subtitle: Cryptocurrency Trading Engine
   link: "https://github.com/raayanpillai/redcloudpp"
   content: Leveraged the APIs of various cryptocurrency exchanges to build a framework to execute market-making and arbitrage strategies. 
   svg: false
