@@ -11,5 +11,3 @@ I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, auto
 I enjoy weightlifting, [reading]({{ page.links.reading }}), and music in my free time.
 Some of the random things I build are on my [GitHub](https://github.com/{{ site.author.github }}).
 Here's my [resume]({{ page.links.resume }}). There are some other links at the footer of this page.
-
-Test
