@@ -30,4 +30,4 @@ copies the site to a hosted location
 
 ## General
 
-Put any assets (such as resume) in the **assets** folder not the one ins **_site** because that gets written over on build
+Put any assets (such as resume) in the **assets** folder not the one in **_site** because that gets written over on build
