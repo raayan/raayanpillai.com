@@ -1,3 +1,9 @@
+- title: lockbook
+  subtitle: An extensible, security first journal
+  link: "https://github.com/lockbook"
+  content: A cross-platform journal app lets you to version control with git 
+  svg: false
+  image: https://raw.githubusercontent.com/lockbook/design-language/master/Icon/lockbook_dev_icon_crypto_color.png
 - title: redcloud
   subtitle: Cryptocurrency Trading Engine
   link: "https://github.com/raayanpillai/redcloudpp"
