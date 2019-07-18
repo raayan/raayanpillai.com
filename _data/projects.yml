@@ -23,7 +23,7 @@
   svg: true 
   image: droppoll-logo.svg
 - title: Gamma Pi Net
-  subtitle: Management Site for Greek Life Organization
+  subtitle: Management Site for Greek Life Organizations
   link: "https://github.com/SigmaChiGammaPi/sigmachigammapi.github.io"
   content: An angularjs web-platform intended to be an all-in-one administration platform. Simple mongoDB interaction for managing users' attendance, comments, rank and information. Integration with Twilio SMS-api to send text alerts to users based on various triggers.
   svg: false 
