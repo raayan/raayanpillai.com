@@ -7,9 +7,9 @@
 # - title: neurotic
 #   subtitle: Systematic Life Tracking
 #   link: "https://github.com/raayanpillai/neurotic"
-#   content: A cross-platform journal app lets you to version control with git. 
+#   content: A life tracking suite that allows you to categorize how you spend your time and perform meaningful analysis.
 #   svg: false
-#   image: lockbook_icon.png
+#   image: neurotic_icon.png
 - title: redcloud
   subtitle: Cryptocurrency Trading Engine
   link: "https://github.com/raayanpillai/redcloudpp"
