@@ -3,13 +3,38 @@ layout: article
 title: Reading List 
 key: page-about
 ---
-
 <ul>
   {% for book in site.data.books %}
-  <li>
-    <a href="{{ book.link }}">{{ book.title }} - {{ book.author }}</a>
-    --
-    {{ book.content }}
-  </li>
+    {%  if book.completed != null %}
+      {% include book.html book=book %}
+      <hr>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p>
+  <b>Current</b>
+</p>
+<ul>
+  {% for book in site.data.books %}
+    {%  if book.started != null and book.completed == null %}
+    <li>
+      {% include book.html book=book %}
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p>
+    <b>To-Read</b>
+    I find leaving these here helps keep me accountable
+</p>
+<ul>
+  {% for book in site.data.books %}
+    {%  if book.started == null %}
+    <li>
+      {% include book.html book=book %}
+    </li>
+    {% endif %}
   {% endfor %}
 </ul>
