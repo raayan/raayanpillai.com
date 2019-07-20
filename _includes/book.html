@@ -1,10 +1,12 @@
 {%- assign _book = include.book -%}
 
-<a href="{{ _book.link }}">{{ _book.title }} - {{ _book.author }}</a>
+<a href="{{ _book.url }}">{{ _book.title }}</a>
+by
+<a href="{{ _book.author.url }}">{{ book.author.name }}</a>
 {% if _book.content != null %}
-  --
+  <br>
   {{ _book.content }}
   {% if _book.completed %}
-    <span class="book-date">{{ _book.completed }}</span>
+    <span class="text-light">{{ _book.completed }}</span>
   {% endif %}
 {% endif %}

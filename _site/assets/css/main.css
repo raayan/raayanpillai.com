@@ -1695,6 +1695,6 @@ body, html, .root, .layout--page { height: 100%; }
 .layout--404 .sign p { font-size: 1.8rem; }
 
 /* start custom scss snippet */
-.book-date { color: #818C97; }
+.text-light { color: #818C97; }
 
 /* end custom scss snippet */

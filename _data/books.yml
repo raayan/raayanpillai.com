@@ -1,6 +1,8 @@
 - title: Kitchen Confidential
-  link: "https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220/ref=sr_1_2?keywords=kitchen+confidential&qid=1556588913&s=gateway&sr=8-2"
-  author: Anthony Bourdain
+  url: "https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220/ref=sr_1_2?keywords=kitchen+confidential&qid=1556588913&s=gateway&sr=8-2"
+  author: 
+    name: Anthony Bourdain
+    url: https://en.wikipedia.org/wiki/Anthony_Bourdain
   content: >
     Bourdain gives a viewpoint on the culinary world opposite to that of your run-of-the-mill cooking show.
     I found the writing down to earth and relaxing to consume.
@@ -11,8 +13,10 @@
   completed: 2/?/2019
 
 - title: Digital Minimalism 
-  link: "https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515/ref=sr_1_1?crid=3NA7REK6AGF6S&keywords=digital+minimalism&qid=1560995803&s=gateway&sprefix=digital+mini%2Caps%2C152&sr=8-1"
-  author: Cal Newport 
+  url: "https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515/ref=sr_1_1?crid=3NA7REK6AGF6S&keywords=digital+minimalism&qid=1560995803&s=gateway&sprefix=digital+mini%2Caps%2C152&sr=8-1"
+  author: 
+    name: Cal Newport
+    url: https://en.wikipedia.org/wiki/Cal_Newport
   content: >
     Finished this in one sitting. To say I didn't agree with the premise of this book before picking it up would be an understatement. 
     Regardless, the points are summarized and presented in an elegant and unpretentious way. 
@@ -21,8 +25,10 @@
   completed: 3/21/2019
     
 - title: Bitcoin Billionaires
-  link: "https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741"
-  author: Ben Mezrich
+  url: "https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741"
+  author: 
+    name: Ben Mezrich
+    url: https://en.wikipedia.org/wiki/Ben_Mezrich
   content: >
     An easy, interesting read that details a fun story from the early days of the cryptocurrency world. 
     For the more technical you may have some nitpicks, but if you can look passed that you'll have a good time. 
@@ -30,8 +36,10 @@
   completed: 7/10/2019
     
 - title: 10% Happier
-  link: "https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423"
-  author: Dan Harris
+  url: "https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423"
+  author: 
+    name: Dan Harris
+    url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
   content: >
     My mom encouraged me to meditate and sent me to yoga classes as a teen. 
     Being a nimrod, the advice fell on deaf ears.
@@ -43,22 +51,37 @@
   completed: 7/20/2019
 
 - title: Thinking, Fast and Slow
-  link: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
-  author: Daniel Kahneman
+  url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
+  author: 
+    name: Daniel Kahneman
+    url: https://en.wikipedia.org/wiki/Daniel_Kahneman
+  content: null
+  started: 7/10/2019
+  completed: null
+
+- title: "Meditation for Fidgety Skeptics"
+  url: "https://www.amazon.com/Meditation-Fidgety-Skeptics-Happier-How/dp/0399588965/"
+  author: 
+    name: Dan Harris
+    url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
   content: null
   started: 7/10/2019
   completed: null
 
 - title: Real Happiness
-  link: https://www.amazon.com/gp/product/0761159258
-  author: Sharon Salzberg
+  url: https://www.amazon.com/gp/product/0761159258
+  author: 
+    name: Sharon Salzberg
+    url: https://en.wikipedia.org/wiki/Sharon_Salzberg
   content: null
   started: null
   completed: null
 
 - title: Going to Pieces without Falling Apart
-  link: https://www.amazon.com/gp/product/0767902351
-  author: Mark Epstein M.D.
+  url: https://www.amazon.com/gp/product/0767902351
+  author: 
+    name: Mark Epstein
+    url: https://en.wikipedia.org/wiki/Mark_Epstein
   content: null
   started: null
   completed: null
