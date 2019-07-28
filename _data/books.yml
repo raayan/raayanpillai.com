@@ -83,6 +83,32 @@
     name: Mark Epstein
     url: https://en.wikipedia.org/wiki/Mark_Epstein
   content: null
+  started: 07/22/2019
+  completed: null
+
+- title: Deep Work 
+  url: "https://www.amazon.com/gp/product/1455586692"
+  author: 
+    name: Cal Newport
+    url: https://en.wikipedia.org/wiki/Cal_Newport
+  content: null
   started: null
   completed: null
 
+- title: How to Win Friends & Influence People 
+  url: "https://www.amazon.com/gp/product/0671027034"
+  author: 
+    name: Dale Carnegie
+    url: https://en.wikipedia.org/wiki/Dale_Carnegie
+  content: null
+  started: null
+  completed: null
+
+- title: Why We Sleep
+  url: "https://www.amazon.com/gp/product/1501144324"
+  author: 
+    name: Matthew Walker
+    url: https://en.wikipedia.org/wiki/Matthew_Walker_(scientist)
+  content: null
+  started: null
+  completed: null
