@@ -1,5 +1,5 @@
 - title: Kitchen Confidential
-  url: "https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220/ref=sr_1_2?keywords=kitchen+confidential&qid=1556588913&s=gateway&sr=8-2"
+  url: https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220/ref=sr_1_2?keywords=kitchen+confidential&qid=1556588913&s=gateway&sr=8-2
   author: 
     name: Anthony Bourdain
     url: https://en.wikipedia.org/wiki/Anthony_Bourdain
@@ -13,7 +13,7 @@
   completed: 2/?/2019
 
 - title: Digital Minimalism 
-  url: "https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515/ref=sr_1_1?crid=3NA7REK6AGF6S&keywords=digital+minimalism&qid=1560995803&s=gateway&sprefix=digital+mini%2Caps%2C152&sr=8-1"
+  url: https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515/ref=sr_1_1?crid=3NA7REK6AGF6S&keywords=digital+minimalism&qid=1560995803&s=gateway&sprefix=digital+mini%2Caps%2C152&sr=8-1
   author: 
     name: Cal Newport
     url: https://en.wikipedia.org/wiki/Cal_Newport
@@ -25,7 +25,7 @@
   completed: 3/21/2019
     
 - title: Bitcoin Billionaires
-  url: "https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741"
+  url: https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741
   author: 
     name: Ben Mezrich
     url: https://en.wikipedia.org/wiki/Ben_Mezrich
@@ -36,7 +36,7 @@
   completed: 7/10/2019
     
 - title: 10% Happier
-  url: "https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423"
+  url: https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423
   author: 
     name: Dan Harris
     url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
@@ -51,7 +51,7 @@
   completed: 7/20/2019
 
 - title: Thinking, Fast and Slow
-  url: "https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555"
+  url: https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
   author: 
     name: Daniel Kahneman
     url: https://en.wikipedia.org/wiki/Daniel_Kahneman
@@ -59,22 +59,13 @@
   started: 7/10/2019
   completed: null
 
-- title: "Meditation for Fidgety Skeptics"
-  url: "https://www.amazon.com/Meditation-Fidgety-Skeptics-Happier-How/dp/0399588965/"
+- title: Meditation for Fidgety Skeptics
+  url: https://www.amazon.com/Meditation-Fidgety-Skeptics-Happier-How/dp/0399588965/
   author: 
     name: Dan Harris
     url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
   content: null
   started: 7/10/2019
-  completed: null
-
-- title: Real Happiness
-  url: https://www.amazon.com/gp/product/0761159258
-  author: 
-    name: Sharon Salzberg
-    url: https://en.wikipedia.org/wiki/Sharon_Salzberg
-  content: null
-  started: null
   completed: null
 
 - title: Going to Pieces without Falling Apart
@@ -86,8 +77,26 @@
   started: 07/22/2019
   completed: null
 
+- title: Why We Sleep
+  url: https://www.amazon.com/gp/product/1501144324
+  author: 
+    name: Matthew Walker
+    url: https://en.wikipedia.org/wiki/Matthew_Walker_(scientist)
+  content: null
+  started: 07/25/2019
+  completed: null
+
+- title: Clean Architecture
+  url: https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/
+  author:
+    name: Robert C. Martin
+    url: https://en.wikipedia.org/wiki/Robert_C._Martin
+  content: null
+  started: 08/01/2019
+  completed: null
+
 - title: Deep Work 
-  url: "https://www.amazon.com/gp/product/1455586692"
+  url: https://www.amazon.com/gp/product/1455586692
   author: 
     name: Cal Newport
     url: https://en.wikipedia.org/wiki/Cal_Newport
@@ -96,7 +105,7 @@
   completed: null
 
 - title: How to Win Friends & Influence People 
-  url: "https://www.amazon.com/gp/product/0671027034"
+  url: https://www.amazon.com/gp/product/0671027034
   author: 
     name: Dale Carnegie
     url: https://en.wikipedia.org/wiki/Dale_Carnegie
@@ -104,11 +113,38 @@
   started: null
   completed: null
 
-- title: Why We Sleep
-  url: "https://www.amazon.com/gp/product/1501144324"
+- title: Real Happiness
+  url: https://www.amazon.com/gp/product/0761159258
   author: 
-    name: Matthew Walker
-    url: https://en.wikipedia.org/wiki/Matthew_Walker_(scientist)
+    name: Sharon Salzberg
+    url: https://en.wikipedia.org/wiki/Sharon_Salzberg
+  content: null
+  started: null
+  completed: null
+
+- title: Clean Code
+  url: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
+  author:
+    name: Robert C. Martin
+    url: https://en.wikipedia.org/wiki/Robert_C._Martin
+  content: null
+  started: null
+  completed: null
+
+- title: Bad Blood
+  url: https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X/
+  author:
+    name: John Carreyrou
+    url: https://en.wikipedia.org/wiki/John_Carreyrou
+  content: null
+  started: null
+  completed: null
+
+- title: The Hero with a Thousand Faces
+  url: https://www.amazon.com/Thousand-Faces-Collected-Joseph-Campbell/dp/1577315936/
+  author: 
+    name: Joseph Campbell
+    url: https://en.wikipedia.org/wiki/Joseph_Campbell
   content: null
   started: null
   completed: null
