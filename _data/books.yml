@@ -148,3 +148,12 @@
   content: null
   started: null
   completed: null
+
+- title: The Tibetan Book of the Dead
+  url: https://www.amazon.com/gp/product/0143104942
+  author:
+    name: Graham Coleman
+    url: null
+  content: null
+  started: null
+  completed: null
