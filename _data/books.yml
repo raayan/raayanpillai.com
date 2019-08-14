@@ -86,6 +86,15 @@
   started: 08/01/2019
   completed: null
 
+- title: The Tibetan Book of the Dead
+  url: https://www.amazon.com/gp/product/0143104942
+  author:
+    name: Graham Coleman
+    url: null
+  content: null
+  started: 08/14/2019
+  completed: null
+  
 - title: Deep Work 
   url: https://www.amazon.com/gp/product/1455586692
   author: 
@@ -145,15 +154,6 @@
   author: 
     name: Dan Harris
     url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
-  content: null
-  started: null
-  completed: null
-
-- title: The Tibetan Book of the Dead
-  url: https://www.amazon.com/gp/product/0143104942
-  author:
-    name: Graham Coleman
-    url: null
   content: null
   started: null
   completed: null
