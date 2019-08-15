@@ -5,9 +5,24 @@ key: page-about
 ---
 <ul>
   {% for book in site.data.books %}
-    {%  if book.completed != null %}
+    {%  if book.completed != null and book.content != null %}
       {% include book.html book=book %}
       <hr>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+<p>
+  <b>
+    Honorable Mentions
+  </b>
+</p>
+<ul>
+  {% for book in site.data.books %}
+    {%  if book.completed != null and book.content == null %}
+    <li>
+      {% include book.html book=book %}
+    </li>
     {% endif %}
   {% endfor %}
 </ul>
