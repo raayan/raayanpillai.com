@@ -166,3 +166,41 @@
   content: null
   started: null
   completed: null
+
+- title: The Daily Stoic
+  url: https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/
+  author:
+    name: Ryan Holiday & Stephen Hanselman
+    url: 
+  content: null
+  started: null
+  completed: null
+
+- title: Siddhartha
+  url: https://www.amazon.com/Siddhartha-Hermann-Hesse/dp/1441407871
+  author:
+    name: Hermann Hesse
+    url: https://en.wikipedia.org/wiki/Hermann_Hesse
+  content: null
+  started: null
+  completed: null
+
+- title: Meditations
+  url: https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255
+  author:
+    name: Marcus Aurelius
+    url: https://en.wikipedia.org/wiki/Marcus_Aurelius
+  content: null
+  started: null
+  completed: null
+
+- title: Essentialism
+  url: https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382
+  author:
+    name: Greg McKeown
+    url: https://en.wikipedia.org/wiki/Greg_McKeown_(author)
+  content: null
+  started: null
+  completed: null
+
+  
