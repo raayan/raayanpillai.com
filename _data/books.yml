@@ -1,206 +1,131 @@
 - title: Kitchen Confidential
-  url: https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220/ref=sr_1_2?keywords=kitchen+confidential&qid=1556588913&s=gateway&sr=8-2
-  author: 
-    name: Anthony Bourdain
-    url: https://en.wikipedia.org/wiki/Anthony_Bourdain
-  content: >
-    Bourdain gives a viewpoint on the culinary world opposite to that of your run-of-the-mill cooking show.
-    I found the writing down to earth and relaxing to consume.
-    The book aside, I have fond memories of my mom and I watching Anthony's shows when growing up.
-    She holds the opinion that he did society a great service by exposing the world to each other's cultures.
-    I wholeheartedly agree.   
+  authors: 
+    - Anthony Bourdain
   started: 2/?/2019
   completed: 2/?/2019
 
 - title: Digital Minimalism 
-  url: https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515/ref=sr_1_1?crid=3NA7REK6AGF6S&keywords=digital+minimalism&qid=1560995803&s=gateway&sprefix=digital+mini%2Caps%2C152&sr=8-1
-  author: 
-    name: Cal Newport
-    url: https://en.wikipedia.org/wiki/Cal_Newport
-  content: >
-    Finished this in one sitting. To say I didn't agree with the premise of this book before picking it up would be an understatement. 
-    Regardless, the points are summarized and presented in an elegant and unpretentious way. 
-    Normally when someone says they don't partake in X social media site you'd think they're out-of-touch with society, but Cal is on point with his observations and criticisms.  
+  authors: 
+    - Cal Newport
   started: 3/21/2019
   completed: 3/21/2019
 
 - title: The Defining Decade
-  url: https://www.amazon.com/Defining-Decade-Your-Twenties-Matter/dp/0446561754
-  author:
-    name: Meg Jay
-    url: https://megjay.com/about/
-  content: null
+  authors:
+    - Meg Jay
   started: 4/?/2019
   completed: 4/?/2019
 
 - title: Bitcoin Billionaires
-  url: https://www.amazon.com/Bitcoin-Billionaires-Genius-Betrayal-Redemption/dp/1250217741
-  author: 
-    name: Ben Mezrich
-    url: https://en.wikipedia.org/wiki/Ben_Mezrich
-  content: >
-    An easy, interesting read that details a fun story from the early days of the cryptocurrency world. 
-    For the more technical you may have some nitpicks, but if you can look past that you'll have a good time. 
+  authors: 
+    - Ben Mezrich
   started: 6/20/2019
   completed: 7/10/2019
     
 - title: 10% Happier
-  url: https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423
-  author: 
-    name: Dan Harris
-    url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
-  content: >
-    My mom encouraged me to meditate and sent me to yoga classes as a teen. 
-    Being the difficult child I was, the advice fell on deaf ears.
-    Maybe I'm more open to the idea at this point in my life, but Dan Harris has presented meditation in an approachable and applicable way.
-    The book is well written and exciting to read as it goes through a stressful time in Dan's life.
-    He meets a few other interesting mindfulness experts that help solidify the point (I've also picked up some new to-reads from his suggestions).
-    Whether you've tried meditation before or not, this book takes an honest approach at trying to convince you and is well worth the read.
+  authors: 
+    - Dan Harris
   started: 7/10/2019
   completed: 7/20/2019
 
 - title: Thinking, Fast and Slow
-  url: https://www.amazon.com/Thinking-Fast-Slow-Daniel-Kahneman/dp/0374533555
-  author: 
-    name: Daniel Kahneman
-    url: https://en.wikipedia.org/wiki/Daniel_Kahneman
-  content: null
+  authors: 
+    - Daniel Kahneman
   started: 7/10/2019
   completed: null
 
 - title: Going to Pieces Without Falling Apart
-  url: https://www.amazon.com/gp/product/0767902351
-  author: 
-    name: Mark Epstein
-    url: https://en.wikipedia.org/wiki/Mark_Epstein
-  content: null
+  authors: 
+    - Mark Epstein
   started: 07/22/2019
   completed: 08/15/2019
 
 - title: Why We Sleep
-  url: https://www.amazon.com/gp/product/1501144324
-  author: 
-    name: Matthew Walker
-    url: https://en.wikipedia.org/wiki/Matthew_Walker_(scientist)
-  content: null
+  authors: 
+    - Matthew Walker
   started: 07/25/2019
   completed: null
 
 - title: Clean Architecture
-  url: https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164/
-  author:
-    name: Robert C. Martin
-    url: https://en.wikipedia.org/wiki/Robert_C._Martin
-  content: null
+  authors:
+    - Robert C. Martin
   started: 08/01/2019
   completed: null
 
 - title: The Tibetan Book of the Dead
-  url: https://www.amazon.com/gp/product/0143104942
-  author:
-    name: Graham Coleman
-    url: null
-  content: null
+  authors:
+    - Graham Coleman
   started: 08/14/2019
   completed: null
   
 - title: Deep Work 
-  url: https://www.amazon.com/gp/product/1455586692
-  author: 
-    name: Cal Newport
-    url: https://en.wikipedia.org/wiki/Cal_Newport
-  content: null
+  authors: 
+    - Cal Newport
   started: null
   completed: null
 
 - title: How to Win Friends & Influence People 
-  url: https://www.amazon.com/gp/product/0671027034
-  author: 
-    name: Dale Carnegie
-    url: https://en.wikipedia.org/wiki/Dale_Carnegie
-  content: null
+  authors: 
+    - Dale Carnegie
   started: null
   completed: null
 
 - title: Real Happiness
-  url: https://www.amazon.com/gp/product/0761159258
-  author: 
-    name: Sharon Salzberg
-    url: https://en.wikipedia.org/wiki/Sharon_Salzberg
-  content: null
+  authors: 
+    - Sharon Salzberg
   started: null
   completed: null
 
 - title: Clean Code
-  url: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/
-  author:
-    name: Robert C. Martin
-    url: https://en.wikipedia.org/wiki/Robert_C._Martin
-  content: null
+  authors:
+    - Robert C. Martin
   started: null
   completed: null
 
 - title: Bad Blood
-  url: https://www.amazon.com/Bad-Blood-Secrets-Silicon-Startup/dp/152473165X/
-  author:
-    name: John Carreyrou
-    url: https://en.wikipedia.org/wiki/John_Carreyrou
-  content: null
+  authors:
+    - John Carreyrou
   started: null
   completed: null
 
 - title: The Hero with a Thousand Faces
-  url: https://www.amazon.com/Thousand-Faces-Collected-Joseph-Campbell/dp/1577315936/
-  author: 
-    name: Joseph Campbell
-    url: https://en.wikipedia.org/wiki/Joseph_Campbell
-  content: null
+  authors: 
+    - Joseph Campbell
   started: null
   completed: null
 
 - title: Meditation for Fidgety Skeptics
-  url: https://www.amazon.com/Meditation-Fidgety-Skeptics-Happier-How/dp/0399588965/
-  author: 
-    name: Dan Harris
-    url: https://en.wikipedia.org/wiki/Dan_Harris_(journalist)
-  content: null
+  authors: 
+    - Dan Harris
   started: null
   completed: null
 
 - title: The Daily Stoic
-  url: https://www.amazon.com/Daily-Stoic-Meditations-Wisdom-Perseverance/dp/0735211736/
-  author:
-    name: Ryan Holiday & Stephen Hanselman
-    url: 
-  content: null
+  authors:
+    - Ryan Holiday & Stephen Hanselman
   started: null
   completed: null
 
 - title: Siddhartha
-  url: https://www.amazon.com/Siddhartha-Hermann-Hesse/dp/1441407871
-  author:
-    name: Hermann Hesse
-    url: https://en.wikipedia.org/wiki/Hermann_Hesse
-  content: null
+  authors:
+    - Hermann Hesse
   started: null
   completed: null
 
 - title: Meditations
-  url: https://www.amazon.com/Meditations-New-Translation-Marcus-Aurelius/dp/0812968255
-  author:
-    name: Marcus Aurelius
-    url: https://en.wikipedia.org/wiki/Marcus_Aurelius
-  content: null
+  authors:
+    - Marcus Aurelius
   started: null
   completed: null
 
 - title: Essentialism
-  url: https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382
-  author:
-    name: Greg McKeown
-    url: https://en.wikipedia.org/wiki/Greg_McKeown_(author)
-  content: null
+  authors:
+    - Greg McKeown
   started: null
   completed: null
 
-  
+- title: The Mythical Man-Month
+  authors: 
+    - Fred Brooks
+  started: null
+  completed: null
