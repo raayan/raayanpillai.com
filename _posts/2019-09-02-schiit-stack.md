@@ -5,8 +5,7 @@ tags: [audio, gear, review]
 ---
 
 <style> 
-.swiper-demo { height: 500px; } 
-/* .swiper-demo .swiper__slide { display: flex; align-items: center; justify-content: center; font-size: 3rem; color: #fff; } */
+.swiper-demo { height: 500px; }
 img { max-height: 100% }
 </style>
 
