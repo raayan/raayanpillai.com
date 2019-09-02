@@ -14,8 +14,8 @@ img { max-height: 100% }
 **This will serve as my first foray into reviewing objects.**
 
 
-Any one who knows me knows I'm a sucker for audio gear.
-Every year I've had the ability to pollute my living space with things I like: I've made sure I had a dedicated audio setup.
+Anyone who knows me knows I'm a sucker for audio gear.
+Every year I could pollute my living space with things I like: I've made sure I had a dedicated audio setup.
 There's something cerebral, to me, about tinkering with your audio setup that makes listening to music a bit more enjoyable. 
 As with most tech products, I heard about Schiit from a Linus Tech Tips video. 
 They're a goofy audio company that makes some serious entry-level products.
@@ -49,16 +49,16 @@ Going back to the car analogy, this is like putting low-octane gasoline in a veh
 #### Features
 The Modi offers three digital input sources: USB (which I use), Toslink SPDIF (optical) and Coaxial SPDIF (coax). 
 When using USB you don't need to provide power separately.
-If you use optical or coax you need to provide power through a similar micro-USB input.
+If you use optical or coax, you need to provide power through a similar micro-USB input.
 There are a pair of RCA outputs on the back as well. 
-On the front there is a switch to specify which input source you're using and white LED for power.  
+On the front, there is a switch to specify which input source you're using and a white LED for power.  
 
 
 ## The Magni (Headphone Amp)
 Now to the middle, we have the [Schiit Magni](https://www.schiit.com/products/magni-1), a headphone amplifier. 
 It's similarly reasonably priced at $99.
 To be honest, I rarely use my headphones (perks of your roommates being your close pals).
-One the off occasion that I do use them my amplifier is *way* to far away from my desk to plug my headphones into the onboard headphone amplifier there.
+On the off occasion that I do use them my amplifier is *way* too far away from my desk to plug my headphones into the onboard headphone amplifier there.
 I also figured that if I ever switch amps to something that doesn't provide a headphone out I'd lose the ability to use them.
 This headphone amplifier powers my Beyerdynamic DT 990 PRO 250 ohm headphones properly.
 The listening experience on this, compared to the afterthought-headphone-amp on the Yamaha R-S202, seems to be superior.
@@ -70,7 +70,7 @@ The Magni has a pair of RCA jacks for your input.
 There are also another pair of RCA jacks for passthrough, for something like your speaker amp.
 There's one switch to flip between high and low gain and another for power.
 You power this thing with a provided AC adapter.
-On the front there is a volume knob and a white LED for power. 
+On the front, there is a volume knob and a white LED for power. 
 The headphone output jack is also on the front.
 
 
@@ -81,10 +81,10 @@ It's priced at $49 and does the job well.
 What's cool about the Sys is you can use it two ways: to switch between inputs and feed to one output or to switch between outputs from one input.
 
 #### Features
-The Sys has two pairs of RCA jacks labelled **input** and one pair labelled **output**.
-If you want to switch between inputs: use the plugs as they are labelled.
+The Sys has two pairs of RCA jacks labeled **input** and one pair labeled **output**.
+If you want to switch between inputs: use the plugs as they are labeled.
 If you want to switch between outputs: plug your outputs into the inputs and your input into the output.
-On the front there is a volume knob that I really don't use and a toggle switch between your inputs (or outputs). 
+On the front, there is a volume knob that I don't use and a toggle switch between your inputs (or outputs). 
 
 
 ## Tidbits
