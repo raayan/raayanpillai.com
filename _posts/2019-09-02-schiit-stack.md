@@ -18,7 +18,7 @@ Every year I've been allowed to pollute my living space with things I like: I've
 There's something cerebral, to me, about tinkering with your audio setup that makes listening to music a bit more enjoyable. 
 As with most tech products, I heard about Schiit from a Linus Tech Tips video. 
 They're a goofy audio company that makes some serious entry-level products.
-I'd never had a dedicated DAC before and I figured I'd see what all the riot is about.
+I'd never had a dedicated DAC before and I figured I'd see what all the fuss is about.
 This led me to the pile of Schiit currently sitting on my desk.
 
 <div class="swiper swiper-demo swiper-demo--0">
