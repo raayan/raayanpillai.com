@@ -91,7 +91,7 @@ When I'm being lazy I listen to music on Spotify.
 When I'm trying to listen intently I'll use Roon as an audio player for various FLAC files I've collected.
 The computer is then plugged into the Schiit Modi via USB.
 The Modi feeds into the Schiit Sys which toggles the output between my headphones and speakers.
-My B&W DM 602 S2 (speakers, from around 2005) are powered by a Yamaha R-S202.
+My B&W DM 685 S2 (speakers, from around 2005) are powered by a Yamaha R-S202.
 The Beyerdynamic DT 990s (headphones) are powered by the Schiit Magni.
 
 **I'm cripplingly addicted to making diagrams, so here's one:** 
@@ -107,7 +107,7 @@ graph LR;
     HAMP-->HP[Beyerdynamic DT 990];
     end;
     subgraph Speakers;
-    AMP-->SPK[B&W DM 602 S2];
+    AMP-->SPK[B&W DM 685 S2];
     end;
 
     classDef normal stroke:black;
