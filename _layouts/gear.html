@@ -1,6 +1,6 @@
 ---
 layout: page
-type: book
+type: gear
 ---
 
 {%- include snippets/assign.html
@@ -9,10 +9,12 @@ type: book
 {%- assign _sharing = __return -%}
 
 <div class="layout--article">
-  <h4>
-    {% include book/book-link.html book=page.book %}
-  </h4>
-  
+  {% if _gear.url == null %}
+  <a href="http://google.com/search?rls=en&q={{ _gear.name }}">{{ _gear.name }}</a>
+  {% else %}
+  <a href="{{ _gear.url }}">{{ _gear.name }}</a>
+  {% endif %}
+    
   <div class="article__content" itemprop="articleBody">{{ content }}</div>
 
   {%- if _sharing -%}

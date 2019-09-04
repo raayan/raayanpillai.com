@@ -1,14 +1,14 @@
 ---
-layout: article
+layout: gear
 title: Schiit Stack
+gear:
+  name: Schiit Stack
+  pictures:
+    - "/assets/images/schiit/stack_front.jpeg"
+    - "/assets/images/schiit/stack_side.jpeg"
+    - "/assets/images/schiit/stack_back.jpeg"
 tags: [audio, gear, review]
 ---
-
-<style> 
-.swiper-demo { height: 500px; }
-img { max-height: 100% }
-</style>
-
 
 **This will serve as my first foray into reviewing objects.**
 
@@ -21,15 +21,8 @@ They're a goofy audio company that makes some serious entry-level products.
 I'd never had a dedicated DAC before and I figured I'd see what all the fuss is about.
 This led me to the pile of Schiit currently sitting on my desk.
 
-<div class="swiper swiper-demo swiper-demo--0">
-  <div class="swiper__wrapper">
-    <div class="swiper__slide"><img class="lightbox-ignore" src="/assets/images/schiit/stack_front.jpeg"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="/assets/images/schiit/stack_side.jpeg"/></div>
-    <div class="swiper__slide"><img class="lightbox-ignore" src="/assets/images/schiit/stack_back.jpeg"/></div>
-  </div>
-  <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
-  <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
-</div>
+{% include gear/gear-slider.html gear=page.gear %}
+
 
 ## The Modi (DAC)
 We'll start this review off with the bottom-most component, the [Schiit Modi](https://www.schiit.com/products/modi-1).
@@ -119,11 +112,3 @@ graph LR;
     class SPK,HP output;
     class MB,SP,DAC normal
 ```
-
-<script>
-  {%- include scripts/lib/swiper.js -%}
-  var SOURCES = window.TEXT_VARIABLES.sources;
-  window.Lazyload.js(SOURCES.jquery, function() {
-    $('.swiper-demo--0').swiper();
-  });
-</script>

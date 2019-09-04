@@ -1,0 +1,25 @@
+{%- assign _gear = include.gear -%}
+
+<style> 
+    .gear-swiper { height: 500px; }
+    img { max-height: 100% }
+</style>
+
+<div class="swiper swiper-demo gear-swiper">
+    <div class="swiper__wrapper">
+    {% for picture in _gear.pictures %}    
+        <div class="swiper__slide"><img class="lightbox-ignore" src="{{picture}}"/></div>
+    {% endfor %}
+    </div>
+    <div class="swiper__button swiper__button--prev fas fa-chevron-left"></div>
+    <div class="swiper__button swiper__button--next fas fa-chevron-right"></div>
+  </div>
+
+
+<script>
+    {%- include scripts/lib/swiper.js -%}
+    var SOURCES = window.TEXT_VARIABLES.sources;
+    window.Lazyload.js(SOURCES.jquery, function() {
+        $('.gear-swiper').swiper();
+    });
+</script>
