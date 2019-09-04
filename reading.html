@@ -6,7 +6,7 @@ key: page-about
 <ul>
   {% for book in site.data.books %}
     {%  if book.completed != null and book.content != null %}
-      {% include book.html book=book %}
+      {% include book/book-link.html book=book %}
       <hr>
     {% endif %}
   {% endfor %}
@@ -20,7 +20,7 @@ key: page-about
   {% for book in site.data.books %}
     {%  if book.completed != null and book.content == null %}
     <li>
-      {% include book.html book=book %}
+      {% include book/book-link.html book=book %}
     </li>
     {% endif %}
   {% endfor %}
@@ -33,7 +33,7 @@ key: page-about
   {% for book in site.data.books %}
     {%  if book.started != null and book.completed == null %}
     <li>
-      {% include book.html book=book %}
+      {% include book/book-link.html book=book %}
     </li>
     {% endif %}
   {% endfor %}
@@ -46,7 +46,7 @@ key: page-about
   {% for book in site.data.books %}
     {%  if book.started == null %}
     <li>
-      {% include book.html book=book %}
+      {% include book/book-link.html book=book %}
     </li>
     {% endif %}
   {% endfor %}
