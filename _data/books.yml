@@ -70,10 +70,22 @@
   started: 08/29/2019
   completed: null
 
+- title: Growth
+  authors:
+    - Vaclav Smil
+  started: 09/29/2019
+  completed: null
+
 - title: How to Win Friends & Influence People 
   authors: 
     - Dale Carnegie
   started: null
+  completed: null
+
+- title: Thus Spoke Zarathustra
+  authors:
+    - Friedrich Nietzsche
+  started: 09/29/2019
   completed: null
 
 - title: Real Happiness
