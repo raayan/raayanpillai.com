@@ -62,13 +62,13 @@
   authors:
     - Michael Lewis
   started: 08/20/2019
-  completed: null
+  completed: 08/27/2019
   
 - title: Deep Work 
   authors: 
     - Cal Newport
   started: 08/29/2019
-  completed: null
+  completed: 10/11/2019
 
 - title: Growth
   authors:
@@ -147,3 +147,10 @@
     - Fred Brooks
   started: null
   completed: null
+
+- title: So Good They Can't Ignore You
+  authors: 
+    - Cal Newport
+  started: null
+  completed: null
+  
