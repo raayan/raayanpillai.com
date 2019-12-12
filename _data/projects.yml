@@ -1,7 +1,7 @@
 - title: lockbook
   subtitle: Secure Journaling
   link: "https://github.com/lockbook"
-  content: A cross-platform journal app lets you to version control with git.
+  content: A cross-platform journaling app lets you to version control with git. The open-source codebase exposes security practices to give you peaceExposed of mind while maintaining standards. Lockbook features a realtime markdown-rendering editor with syntax highlighting (for Scala as of now).
   svg: false
   image: lockbook_icon.png
 # - title: neurotic
