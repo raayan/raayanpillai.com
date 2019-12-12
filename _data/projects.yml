@@ -1,9 +1,9 @@
-# - title: lockbook
-#   subtitle: Secure Journaling
-#   link: "https://github.com/lockbook"
-#   content: A cross-platform journal app lets you to version control with git. 
-#   svg: false
-#   image: lockbook_icon.png
+- title: lockbook
+  subtitle: Secure Journaling
+  link: "https://github.com/lockbook"
+  content: A cross-platform journal app lets you to version control with git.
+  svg: false
+  image: lockbook_icon.png
 # - title: neurotic
 #   subtitle: Systematic Life Tracking
 #   link: "https://github.com/raayanpillai/neurotic"
