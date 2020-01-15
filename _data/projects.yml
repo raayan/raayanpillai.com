@@ -1,37 +1,37 @@
+- title: overseer
+  subtitle: Systematic Life Tracking
+  link: "https://github.com/raayan/overseer"
+  content: A life tracking suite that allows you to categorize how you spend your time and perform meaningful analysis. This is an amalgamation of the techniques and tools I use to log every hour of my life. Overseer helps provide a standard for reporting and interact with this kind of data.
+  svg: false
+  image: neurotic_icon.png
 - title: lockbook
   subtitle: Secure Journaling
   link: "https://github.com/lockbook"
   content: A cross-platform journaling app lets you to version control with git. The open-source codebase exposes security practices to give you peaceExposed of mind while maintaining standards. Lockbook features a realtime markdown-rendering editor with syntax highlighting (for Scala as of now).
   svg: false
   image: lockbook_icon.png
-# - title: neurotic
-#   subtitle: Systematic Life Tracking
-#   link: "https://github.com/raayanpillai/neurotic"
-#   content: A life tracking suite that allows you to categorize how you spend your time and perform meaningful analysis.
-#   svg: false
-#   image: neurotic_icon.png
 - title: redcloud
   subtitle: Cryptocurrency Trading Engine
-  link: "https://github.com/raayanpillai/redcloudpp"
-  content: Leveraged the APIs of various cryptocurrency exchanges to build a framework to execute market-making and arbitrage strategies. 
+  link: "https://github.com/raayan/redcloudpp"
+  content: A trading bot developed to execute market-making and arbitrage strategies on various cryptocurrency exchanges. redcloud leveraged polled and streamed data to monitor market and build local books. Utilized network statistics to preempt outages.
   svg: false
   image: redcloud-logo.png
 - title: CourseSniper 
   subtitle: Course Registration Tool for the University of Rochester
-  link: "https://github.com/raayanpillai/CourseSniper"
+  link: "https://github.com/raayan/CourseSniper"
   content: Signing up for classes at the University of Rochester was tedious. Professors would give out class codes arbitrarily and the wait-list functionality our school implemented was completely non-functional. This was a simple fix, a webserver that would respectfully scrape and alert students when classes they cared about had opennings.
   svg: false
   image: urcs-logo.png
-- title: droppoll 
-  subtitle: Styleable Realtime Poll
-  link: "https://github.com/raayanpillai/droppoll-beta"
-  content: A poll built in angular2, say you're livestreaming or something that needs live-updating results, you could use this.
-  svg: true 
-  image: droppoll-logo.svg
-- title: Gamma Pi Net
-  subtitle: Management Site for Greek Life Organizations
-  link: "https://github.com/SigmaChiGammaPi/sigmachigammapi.github.io"
-  content: An angularjs web-platform intended to be an all-in-one administration platform. Simple mongoDB interaction for managing users' attendance, comments, rank and information. Integration with Twilio SMS-api to send text alerts to users based on various triggers.
-  svg: false 
-  image: scgp-logo.jpg
+#- title: droppoll
+#  subtitle: Styleable Realtime Poll
+#  link: "https://github.com/raayan/droppoll-beta"
+#  content: A poll built in angular2, say you're livestreaming or something that needs live-updating results, you could use this.
+#  svg: true
+#  image: droppoll-logo.svg
+#- title: Gamma Pi Net
+#  subtitle: Management Site for Greek Life Organizations
+#  link: "https://github.com/SigmaChiGammaPi/sigmachigammapi.github.io"
+#  content: An angularjs web-platform intended to be an all-in-one administration platform. Simple mongoDB interaction for managing users' attendance, comments, rank and information. Integration with Twilio SMS-api to send text alerts to users based on various triggers.
+#  svg: false
+#  image: scgp-logo.jpg
 

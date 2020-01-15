@@ -154,3 +154,27 @@
   started: null
   completed: null
   
+- title: Brave New World
+  authors:
+    - Aldous Huxley
+  started: null
+  completed: null
+
+- title: 1984
+  authors:
+    - George Orwell
+  started: null
+  completed: null
+
+- title: Factfulness
+  authors:
+    - Hans Rosling
+  started: 12/28/19
+  completed: null
+
+- title: The Rules
+  authors:
+    - Greg LeMond
+    - Velominati
+  started: 12/25/19
+  completed: null
