@@ -4,6 +4,7 @@
 **On Ubuntu 18.04 LTS**
 - snap & apt
 - gcc,g++
+- libpng-dev (for zlib)
 - ruby
 - make
 
