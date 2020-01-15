@@ -1,5 +1,18 @@
 # Instructions
 
+## Requirements
+**On Ubuntu 18.04 LTS**
+- snap & apt
+- gcc,g++
+- ruby
+- make
+
+## Install
+**On Ubuntu 18.04 LTS**
+```
+bundle install
+```
+
 ## Build
 
 ```
