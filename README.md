@@ -2,11 +2,20 @@
 
 ## Requirements
 **On Ubuntu 18.04 LTS**
-- snap & apt
-- gcc,g++
+- snap
+- g++
 - libpng-dev (for zlib)
-- ruby
 - make
+- ruby
+
+### Pre-Install
+**On Ubuntu 18.04 LTS**
+```
+sudo apt install g++
+sudo apt install libpng-dev
+sudo apt install make
+sudo snap install ruby
+```
 
 ## Install
 **On Ubuntu 18.04 LTS**
