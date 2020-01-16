@@ -3,49 +3,37 @@
 ## Requirements
 **On Ubuntu 18.04 LTS**
 - snap
-- g++
-- libpng-dev (for zlib)
-- make
-- ruby
+- zola
 
 ### Pre-Install
 **On Ubuntu 18.04 LTS**
 ```
-sudo apt install g++
-sudo apt install libpng-dev
-sudo apt install make
-sudo snap install ruby
-```
-
-## Install
-**On Ubuntu 18.04 LTS**
-```
-bundle install
+snap install --edge zola
 ```
 
 ## Build
 
 ```
-bundle exec jekyll build
+zola build
 ```
 
-builds the site to _site
+builds the site to `public`
 
 
 ## Serve
 
 
 ```
-bundle exec jekyll serve [--drafts]
+zola serve
 ```
 
-Serves on port, add --drafts to enable the drafts
+Serves on port 1111 by default
 
 
 ## Deploy
 
 ```
-cp -r _site/* /var/www/raayanpillai.com
+cp -r public/* /var/www/raayanpillai.com
 ```
 
 copies the site to a hosted location
@@ -53,4 +41,4 @@ copies the site to a hosted location
 
 ## General
 
-Put any assets (such as resume) in the **assets** folder not the one in **_site** because that gets written over on build
+Put any assets (such as resume) in the **static**
