@@ -1,0 +1,26 @@
+{% extends "index.html" %}
+
+{% block content %}
+
+{% for project in page.extra.projects %}
+<article class="post">
+    <header class="post__header">
+        <h1 class="post__title">
+            <a href="{{ project.link }}">{{ project.title }}</a>
+        </h1>
+        <div class="post__meta">
+            <span class="post__time">{{ project.subtitle }}</span>
+            {% if page.category %}
+            <div class="post__category">
+                <a href="{{ get_taxonomy_url(kind="category", name=page.category) }}">{{ page.category }}</a>
+            </div>
+            {% endif %}
+        </div>
+    </header>
+    <div class="post__summary">
+        {{ project.content | safe }}
+    </div>
+</article>
+{% endfor %}
+
+{% endblock content %}
