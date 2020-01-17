@@ -121,7 +121,7 @@
 - title: The Daily Stoic
   authors:
     - Ryan Holiday & Stephen Hanselman
-  started: null
+  started: 01/01/2020
   completed: null
 
 - title: Siddhartha
@@ -177,4 +177,9 @@
     - Greg LeMond
     - Velominati
   started: 12/25/19
+  completed: null
+- title: Zen and the Art of Motorcycle Maintenance
+  authors:
+    - Robert M Pirsig
+  started: null
   completed: null

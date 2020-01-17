@@ -8,7 +8,17 @@ links:
 ---
 
 I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, automation and how those topics intersect with computer science.
-I enjoy cycling, rock-climbing, [reading]({{ page.links.reading }}), movies, and music in my free time.
-Some of the things I build are on my [GitHub](https://github.com/{{ site.author.github }}).
-Here's my [resume]({{ page.links.resume }}). You can reach me at [raayan@raayanpillai.com](mailto:{{ site.author.email }}).
+
+Some things I enjoy in my free time:
+- cycling
+- bouldering
+- [reading]({{ page.links.reading }})
+- contemplating existential dread
+- movies
+- music
+
+Some of the things I build are on my [GitHub](https://github.com/{{ site.author.github }}); my work experience is on my [resume]({{ page.links.resume }}). 
+
+If you have something nice to say, you can reach me at [raayan@raayanpillai.com](mailto:{{ site.author.email }}).
+
 There are some other links at the footer of this page.
