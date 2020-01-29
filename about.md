@@ -10,8 +10,8 @@ links:
 I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, automation and how those topics intersect with computer science.
 
 Some things I enjoy in my free time:
-- cycling
-- bouldering
+- [cycling](https://www.strava.com/athletes/{{ site.author.strava }})
+- skiing
 - [reading]({{ page.links.reading }})
 - contemplating existential dread
 - movies

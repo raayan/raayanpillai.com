@@ -26,6 +26,9 @@
       .instagram-button {
         @include clickable($text-color-1, $instagram-color);
       }
+      .strava-button {
+        @include clickable($text-color-1, $strava-color);
+      }
       .zhihu-button {
         @include clickable($text-color-1, $zhihu-color);
       }

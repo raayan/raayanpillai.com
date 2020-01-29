@@ -76,6 +76,14 @@
     </li>
     {%- endif -%}
 
+    {%- if _author.strava -%}
+    <li title="{{ _locale_string_follow | replace: '[NAME]', 'instagram' }}">
+      <a class="button button--circle strava-button" itemprop="sameAs" href="https://www.strava.com/athletes/{{ _author.strava }}" target="_blank">
+        <div class="icon">{%- include svg/icon/social/strava.svg -%}</div>
+      </a>
+    </li>
+    {%- endif -%}
+
     {%- if _author.medium -%}
       <li title="{{ _locale_string_follow | replace: '[NAME]', 'Medium' }}">
         <a class="button button--circle medium-button" itemprop="sameAs" href="https://medium.com/{{ _author.medium }}" target="_blank">
