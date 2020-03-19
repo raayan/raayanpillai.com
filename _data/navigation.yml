@@ -6,7 +6,7 @@ header:
   - title: Archive 
     url: /archive.html
   - title: Read
-    url: /reading.html
+    url: https://www.goodreads.com/user/show/{{ site.author.goodreads }}
   - title: About
     url: /about.html
 
