@@ -29,9 +29,6 @@
       .strava-button {
         @include clickable($text-color-1, $strava-color);
       }
-      .goodreads-button {
-        @include clickable($text-color-1, $goodreads-color);
-      }
       .zhihu-button {
         @include clickable($text-color-1, $zhihu-color);
       }
