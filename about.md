@@ -4,7 +4,6 @@ title: About
 key: page-about
 links:
  resume: "/assets/resume/resume.pdf"
- reading: "reading.html"
 ---
 
 I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, automation and how those topics intersect with computer science.
@@ -12,7 +11,7 @@ I'm Raayan Pillai, an engineer. I'm interested in minimalism, organization, auto
 Some things I enjoy in my free time:
 - [cycling](https://www.strava.com/athletes/{{ site.author.strava }})
 - skiing
-- [reading]({{ page.links.reading }})
+- [reading](https://www.goodreads.com/user/show/{{ site.author.goodreads }})
 - contemplating existential dread
 - movies
 - music

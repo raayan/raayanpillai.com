@@ -77,9 +77,17 @@
     {%- endif -%}
 
     {%- if _author.strava -%}
-    <li title="{{ _locale_string_follow | replace: '[NAME]', 'instagram' }}">
+    <li title="{{ _locale_string_follow | replace: '[NAME]', 'strava' }}">
       <a class="button button--circle strava-button" itemprop="sameAs" href="https://www.strava.com/athletes/{{ _author.strava }}" target="_blank">
         <div class="icon">{%- include svg/icon/social/strava.svg -%}</div>
+      </a>
+    </li>
+    {%- endif -%}
+
+    {%- if _author.goodreads -%}
+    <li title="{{ _locale_string_follow | replace: '[NAME]', 'goodreads' }}">
+      <a class="button button--circle goodreads-button" itemprop="sameAs" href="https://www.goodreads.com/user/show/{{ _author.goodreads }}" target="_blank">
+        <div class="icon">{%- include svg/icon/social/goodreads.svg -%}</div>
       </a>
     </li>
     {%- endif -%}
