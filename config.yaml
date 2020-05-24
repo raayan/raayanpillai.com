@@ -1,0 +1,32 @@
+baseURL: http://raayanpillai.com/
+languageCode: en-us
+title: raayanpillai
+theme: hugo-book
+
+# Book configuration
+disablePathToLower: true
+enableGitInfo: true
+
+# Needed for mermaid/katex shortcodes
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 1
+
+menu:
+  # before: []
+  after:
+    - name: "Github"
+      url: "https://github.com/raayan"
+      weight: 10
+
+params:
+  BookToC: true
+  BookMenuBundle: /menu
+  BookSection: docs
+  BookRepo: https://github.com/raayan/raayanpillai.com
+  BookDateFormat: "January 2, 2006"
+  BookSearch: true
+  BookComments: false
