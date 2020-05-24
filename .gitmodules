@@ -1,9 +1,9 @@
 [submodule "assets/resume"]
 	path = assets/resume
 	url = git@github.com:raayanpillai/resume.git
-[submodule "raayan/themes/hugo-book"]
-	path = raayan/themes/hugo-book
-	url = https://github.com/alex-shpak/hugo-book
 [submodule "static/resume"]
 	path = static/resume
 	url = git@github.com:raayan/resume.git
+[submodule "themes/hugo-book"]
+	path = themes/hugo-book
+	url = https://github.com/alex-shpak/hugo-book
