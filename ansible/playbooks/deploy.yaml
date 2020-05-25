@@ -1,0 +1,27 @@
+---
+- hosts: main
+  order: sorted
+  tasks:
+    - name: Check if nginx is installed
+      stat:
+        path: /usr/sbin/nginx
+      register: nginx
+    - name: Install hugo
+      snap:
+        name:
+          - hugo
+    - block:
+      - name: Checkout Repository
+        git:
+          repo: git@github.com:raayan/raayanpillai.com.git
+          dest:  /srv/raayanpillai.com
+      - name: Build Site
+        command: /snap/hugo/current/bin/hugo -d /var/www/raayanpillai.com
+        args:
+          chdir: /srv/raayanpillai.com
+      - name: Check nginx status
+        service:
+          name: nginx
+          state: started
+      
+      
