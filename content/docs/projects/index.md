@@ -5,17 +5,16 @@ bookToC: false
 
 # Projects
 
-## [overseer](https://github.com/raayan/overseer)
-*Systematic Life Tracking*
-
-A life tracking suite that allows you to categorize how you spend your time and perform meaningful analysis. This is an amalgamation of the techniques and tools I use to log every hour of my life. Overseer helps provide a standard for reporting and interact with this kind of data.
-  
-
 ## [lockbook](https://github.com/lockbook)
 *Secure Journaling*
 
 A cross-platform journaling app lets you to version control with git. The open-source codebase exposes security practices to give you peaceExposed of mind while maintaining standards. Lockbook features a realtime markdown-rendering editor with syntax highlighting (for Scala as of now).
 
+## [overseer](https://github.com/raayan/overseer)
+*Systematic Life Tracking*
+
+A life tracking suite that allows you to categorize how you spend your time and perform meaningful analysis. This is an amalgamation of the techniques and tools I use to log every hour of my life. Overseer helps provide a standard for reporting and interact with this kind of data.
+  
 ## [redcloud](https://github.com/raayan/redcloudpp)
 *Cryptocurrency Trading Engine*
 

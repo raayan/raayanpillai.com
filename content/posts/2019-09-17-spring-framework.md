@@ -1,10 +1,10 @@
 ---
 date: "2019-09-17T00:00:00Z"
+categories: software
 tags:
 - spring
 - java
 - frameworks
-- software
 title: The Spring Framework
 ---
 

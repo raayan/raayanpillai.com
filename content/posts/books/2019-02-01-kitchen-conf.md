@@ -5,8 +5,8 @@ book:
   title: Kitchen Confidential
   url: https://www.amazon.com/Kitchen-Confidential-Updated-Adventures-Underbelly/dp/0060899220
 date: "2019-02-01T00:00:00Z"
+categories: books
 tags:
-- book
 - review
 - culinary
 title: Kitchen Confidential

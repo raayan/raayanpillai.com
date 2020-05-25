@@ -3,9 +3,12 @@ languageCode: en-us
 title: raayanpillai
 theme: hugo-book
 
-# Book configuration
+author:
+  name: Raayan Pillai
+
 disablePathToLower: true
 enableGitInfo: true
+enableEmoji: true
 
 # Needed for mermaid/katex shortcodes
 markup:

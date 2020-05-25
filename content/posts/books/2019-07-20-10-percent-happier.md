@@ -5,8 +5,8 @@ book:
   title: 10% Happier
   url: https://www.amazon.com/10-Happier-Self-Help-Actually-Works/dp/0062265423
 date: "2019-07-20T00:00:00Z"
+categories: books
 tags:
-- book
 - review
 - self-improvement
 - philosophy

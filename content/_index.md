@@ -18,5 +18,5 @@ Some things I enjoy in my free time:
 
 Some of the things I build are on my [GitHub](https://github.com/raayan); my work experience is on my [resume](/resume/resume.pdf). 
 
-If you have something nice to say, you can reach me at [raayan@raayanpillai.com](mailto:raayan@raayanpillai.com).
+If you have something to say, [email](mailto:raayan@raayanpillai.com) me.
 

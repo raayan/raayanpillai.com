@@ -5,8 +5,8 @@ book:
   title: Digital Minimalism
   url: https://www.amazon.com/Digital-Minimalism-Choosing-Focused-Noisy/dp/0525536515
 date: "2019-03-21T00:00:00Z"
+categories: books
 tags:
-- book
 - review
 - minimalism
 - technology
