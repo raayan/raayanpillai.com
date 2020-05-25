@@ -20,7 +20,7 @@ A life tracking suite that allows you to categorize how you spend your time and 
 
 A trading bot developed to execute market-making and arbitrage strategies on various cryptocurrency exchanges. redcloud leveraged polled and streamed data to monitor market and build local books. Utilized network statistics to preempt outages.
 
-## [CourseSniper ](https://github.com/raayan/CourseSniper)
+## [course sniper](https://github.com/raayan/CourseSniper)
 *Course Registration Tool for the University of Rochester*
 
 Signing up for classes at the University of Rochester was tedious. Professors would give out class codes arbitrarily and the wait-list functionality our school implemented was completely non-functional. This was a simple fix, a webserver that would respectfully scrape and alert students when classes they cared about had opennings.
