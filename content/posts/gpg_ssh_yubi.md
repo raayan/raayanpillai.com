@@ -45,7 +45,7 @@ $ brew install ykman
 
 
 
-# [GPG](https://gnupg.org) Setup
+# GPG Setup
 
 Now it's time to set up  GPG, [Gnu Privacy Guard](https://gnupg.org). Per their website:
  
@@ -223,7 +223,7 @@ At this point you're done with the basic setup of GPG with you YubiKey, you can 
 gpg/card> [quit]
 ```
 
-# [git](https://git-scm.com/docs) Configuration
+# git Configuration
 
 Now that you have GPG setup on your YubiKey you can start using it for something "practical"-ish.
 As mentioned earlier, you can use GPG to sign messages so people know it was you who sent them.
@@ -300,7 +300,7 @@ You can see that the message has your signature!
 
 You can read more about [what you can sign here.](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work)
 
-# [SSH](https://www.openssh.com/manual.html) Configuration 
+# SSH Configuration 
 
 Add the following to your shell startup configurations (`.zshrc`, `.bashrc` what have you)
 
