@@ -273,7 +273,7 @@ $ git config --add commit.gpgsign true
 
 Now if you look at that last commit
 ```zsh
-git cat-file -p HEAD
+$ git cat-file -p HEAD
 tree 1e76f2cf852b584b19b5d599dc5fe0a9c01b6ede
 parent 39a071d2d1b3b244097b0db6913715d3683cdefd
 gpgsig -----BEGIN PGP SIGNATURE-----
@@ -309,7 +309,7 @@ $ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 $ gpgconf --launch gpg-agent
 ```
 
-This gets the GPG SSH-agent and sets it to environment variable `SSH_AUTH_SOCK`, then it launches `gpg-agent` which basically communicates your GPG identy.
+This gets the GPG SSH-agent and sets it to environment variable `SSH_AUTH_SOCK`, then it launches `gpg-agent` which basically communicates your GPG identity.
 
 Then run
 ```zsh
@@ -318,6 +318,7 @@ $ ssh-add -L
 
 This should print out something that looks like
 ```zsh
-ssh-rsa <lots-of-stuff> cardno:00000000000
+$ ssh-rsa <lots-of-stuff> cardno:00000000000
 ```
-That, my friend, is your public-key coming straight from your YubiKey! Now add this key to some UNIX server's `/root/.ssh/authorized_keys` file and you can SSH right in.
+
+That, my friend, is your public-key coming straight from your YubiKey! Now add this key to some server's `/root/.ssh/authorized_keys` file and you can SSH right in.
