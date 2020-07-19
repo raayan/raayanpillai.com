@@ -1,6 +1,6 @@
 ---
 title: "Fanciful Hardware Authentication"
-date: 2020-06-02T21:24:45-04:00
+date: 2020-07-19T00:00:00-04:00
 categories: power user
 tags:
 - yubikey
