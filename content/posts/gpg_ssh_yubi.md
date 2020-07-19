@@ -9,7 +9,6 @@ tags:
 - ssh
 - git
 - macos
-draft: true
 ---
 
 # Security Tokens and You
