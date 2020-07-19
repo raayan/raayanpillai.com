@@ -3,7 +3,7 @@ title: "Fanciful Hardware Authentication"
 date: 2020-07-19T00:00:00-04:00
 categories: power user
 tags:
-- yubikey
+- YubiKey
 - hardware authentication
 - gpg
 - ssh
@@ -13,13 +13,17 @@ tags:
 
 # Security Tokens and You
 
-[YubiKeys](https://www.yubico.com/why-yubico/for-individuals/) (or similar security tokens) are spectacular when used in conjunction with things like [WebAuthn](https://webauthn.guide). These devices serve as a way to uniquely identify that it is you, **and only you.** That sounds familiar! Doesn't it? 
+[YubiKeys](https://www.yubico.com/why-yubico/for-individuals/) (or similar security tokens) are spectacular when used in conjunction with things like [WebAuthn](https://webauthn.guide). 
+These devices serve as a way to identify that the person accessing whichever resource is also in possession of that device 
 
-We all remember our first time robotically running `ssh-keygen`, double-tapping the enter key and moving along with no-passphrase so we could appease some nagging service that required a private key. If you don't, no matter, because we're blasting right to the big leagues!
+We all remember our first time robotically running `ssh-keygen`, double-tapping the enter key and moving along with no-passphrase, so we could appease some nagging service that required a private key. 
+If you don't, no matter, because we're blasting right to the big leagues!
 
-In short, "private key authentication" is essentially giving a server or someone else your "public key" and having a singleton "private key" that you can use to let servers and people can identify you by your public key. This is a gross over-simplification, but people dedicate their lives to this subject, and you're better off learning the details from them.
+In short, "private key authentication" is essentially giving a server or someone else your "public key" and having a singleton "private key" that you can use to let servers and people can identify you by your public key. 
+This is a gross over-simplification, but people dedicate their lives to this subject, and you're better off learning the details from them.
 
-To bring it back to security tokens, namely YubiKeys, the same principal we described before applies. You have the problem of trying to identify yourself to some server or person, but you don't want anyone else to be able to do that. This is where security tokens come in clutch, your private key lives on the device, and they are _much_ more difficult to pry off. It gets even better though: they are quite portable! 
+To bring it back to security tokens, namely YubiKeys, the same principal we described before applies. You have the problem of trying to identify yourself to some server or person, but you don't want anyone else to be able to do that. 
+This is where security tokens come in clutch; your private key lives on the device, and they are _much_ more difficult to pry off. It gets even better though: they are quite portable! 
 
 In this guide we'll go over what it takes to get you and your YubiKey up and running, using GPG to sign commits and SSH into servers.
 
@@ -27,13 +31,13 @@ I primarily use a macOS so this guide will be tailored to that.
 
 # YubiKey Initialization
 
-Alright, now it's time to setup your YubiKey.
+Alright, now it's time to set up your YubiKey.
 At this point in time, I've upgraded to the macOS 11 beta and "YubiKey Manager" got busted in half because of it.
 No worries, we'll just use the CLI tool: [`ykman`](https://developers.yubico.com/yubikey-manager/).
 
 It'll be more precise anyways 🤷
 
-Since we're using macOS we're going to use [homebrew](https://brew.sh) to install `ykman`. 
+Since we're using macOS we'll have to use [homebrew](https://brew.sh) to install `ykman`. 
 If you don't already have it, head over to their website and install it.
 Homebrew makes it easy to manage packages on macOS.
 If you're not using macOS see `ykman`'s website for instructions on what to do.
@@ -183,7 +187,7 @@ ssb>  rsa2048/0x9B8F0DA9D6C1CDFE  created: 2020-07-19  expires: 2021-07-19
                                   card-no:
 ``` 
 
-Now that things are setup properly you can should change your PIN.
+Now that things are setup properly you should change your PIN.
 We didn't do this before since it's easier to enter the defaults while you're configuring things.
 
 ```zsh
@@ -216,7 +220,7 @@ Q - quit
 Your selection? [Q]
 ```
 
-At this point you're done with the basic setup of GPG with you YubiKey, you can enter the following to quit `gpg2`.
+At this point you're done with the basic setup of GPG with you YubiKey and enter the following to quit `gpg2`.
 
 ```zsh
 gpg/card> [quit]
@@ -292,7 +296,7 @@ gpgsig -----BEGIN PGP SIGNATURE-----
  =83wO
  -----END PGP SIGNATURE-----
 
-Me and keys
+very nice, very secure
 ```
 
 You can see that the message has your signature!
@@ -308,7 +312,7 @@ $ export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
 $ gpgconf --launch gpg-agent
 ```
 
-This gets the GPG SSH-agent and sets it to environment variable `SSH_AUTH_SOCK`, then it launches `gpg-agent` which basically communicates your GPG identity.
+This gets the GPG SSH-agent and sets it to environment variable `SSH_AUTH_SOCK`, then launches `gpg-agent` which basically communicates your GPG identity.
 
 Then run
 ```zsh
@@ -320,4 +324,4 @@ This should print out something that looks like
 $ ssh-rsa <lots-of-stuff> cardno:00000000000
 ```
 
-That, my friend, is your public-key coming straight from your YubiKey! Now add this key to some server's `/root/.ssh/authorized_keys` file and you can SSH right in.
+That, my friend, is your public-key coming straight from your YubiKey! Now add this key to some server's `/root/.ssh/authorized_keys` file, and you can SSH right in.
